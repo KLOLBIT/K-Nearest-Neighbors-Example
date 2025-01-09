@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-df_0 = pd.read_csv('Classified Data', index_col=0)
+df_0 = pd.read_csv('Classified Data (2)', index_col=0)
 
 scaler = StandardScaler()
 scaler.fit(df_0.drop('TARGET CLASS', axis=1))
