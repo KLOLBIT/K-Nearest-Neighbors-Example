@@ -135,5 +135,3 @@ pred_final = knc.predict(X_test)
 * Compare KNN performance with **Logistic Regression** or **SVM** on the same dataset.
 
 ---
-
-Do you want me to also **add the visualization of the confusion matrix as a heatmap** with Seaborn? That would make the README even more intuitive.
